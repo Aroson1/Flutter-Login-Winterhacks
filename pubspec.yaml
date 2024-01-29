@@ -1,0 +1,29 @@
+name: login_page_winterhacks
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=3.2.1 <4.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+  intl: ^0.18.0
+  glassmorphism_ui: ^0.3.0
+  form_validator: ^2.1.1
+  
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Poppins
+      fonts: 
+        - asset: assets/fonts/PoppinsSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/PoppinsMedium.ttf
+          weight: 500
